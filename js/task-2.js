@@ -3,7 +3,7 @@
 // Доповни код функції так, щоб вона повертала рядок з повідомленням про доставку товару в країну користувача: "Shipping to <country> will cost <totalPrice> credits", де: • <country> — це країни доставки • <totalPrice> — це загальна вартість замовлення, що включає вартість товару і його доставки.
 
 function getShippingMessage(country, price, deliveryFee) {
-    return `"Shipping to ${country} will cost ${price + deliveryFee} credits"`;
+    return `Shipping to ${country} will cost ${price + deliveryFee} credits`;
 }
 
 console.log(getShippingMessage("Australia", 120, 50)); // "Shipping to Australia will cost 170 credits"

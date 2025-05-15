@@ -4,7 +4,7 @@
 // Доповни код функції так, щоб вона повертала рядок з повідомленням про покупку ремонтних дроїдів: "You ordered <quantity> droids worth <totalPrice> credits!", де: • <quantity> — це кількість замовлених дроїдів • <totalPrice> — це загальна вартість замовлення, тобто вартість усіх замовлених дроїдів.
 
 function makeTransaction(quantity, pricePerDroid) {
-    return `"You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!"`;
+    return `You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!`;
 }
 
 console.log(makeTransaction(5, 3000)); // "You ordered 5 droids worth 15000 credits!"
